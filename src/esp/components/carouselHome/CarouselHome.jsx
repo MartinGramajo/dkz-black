@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Fade from "react-reveal/Slide";
 
 import LineaNaranja from "../../components/LineaNaranja";
 import BtnContact from "../../components/BtnContact";
@@ -49,14 +48,13 @@ export default function CarouselHome() {
                 </div>
               </div>
             </div>
-            <Fade right>
-              <Image
-                className="carousel-imagenes"
-                src={director}
-                fluid
-                alt="Fabri - Director Creativo"
-              />
-            </Fade>
+
+            <Image
+              className="carousel-imagenes"
+              src={director}
+              fluid
+              alt="Fabri - Director Creativo"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -80,14 +78,13 @@ export default function CarouselHome() {
                 </div>
               </div>
             </div>
-            <Fade right>
-              <Image
-                className="carousel-imagenes"
-                src={director}
-                fluid
-                alt="Fabri - Director Creativo"
-              />
-            </Fade>
+
+            <Image
+              className="carousel-imagenes"
+              src={director}
+              fluid
+              alt="Fabri - Director Creativo"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -111,14 +108,13 @@ export default function CarouselHome() {
                 </div>
               </div>
             </div>
-            <Fade right>
-              <Image
-                className="carousel-imagenes"
-                src={director}
-                fluid
-                alt="Fabri - Director Creativo"
-              />
-            </Fade>
+
+            <Image
+              className="carousel-imagenes"
+              src={director}
+              fluid
+              alt="Fabri - Director Creativo"
+            />
           </div>
         </SwiperSlide>
       </Swiper>
