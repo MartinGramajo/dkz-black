@@ -1,0 +1,36 @@
+.texto-contenido-card {
+  color: #f2f2f2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.margin-negativo-boton {
+  position: relative;
+  margin-bottom: -110px;
+}
+
+.padding-card {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.padding-card-pre {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.padding-card-pro {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .padding-card {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .padding-card-pre {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}

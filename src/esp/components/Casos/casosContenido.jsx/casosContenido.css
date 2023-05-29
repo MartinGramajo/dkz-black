@@ -1,0 +1,38 @@
+
+.fondo-naranja-casos{
+    background-color: #FF6700;    
+    transition: 0.5s all;
+}
+.fondo-naranja-casos:hover{
+    background-color:#FFFFFF;
+    transition: 0.5s all;
+}
+.fondo-casos{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    transition: 0.5s all;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+.fondo-casos:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: 0.5s all;
+}
+
+.fondo-casos:hover .casos-texto{
+    opacity:0;    
+    transition: 0.5s all;
+}
+.casos-texto{
+    background-color: hsla(0, 0%, 4%, 0.5);
+    transition: 0.5s all;
+    Line-height: 30px;
+
+}

@@ -1,0 +1,22 @@
+.fotos-trabajos{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    transition: 0.5s all;
+}
+.fotos-trabajos:hover{
+    filter: grayscale(0%);
+    transition: 0.5s all;
+}
+.fondo-naranja{
+    background-color: #FF6700;    
+    transition: 0.5s all;
+}
+.fondo-naranja:hover{
+    background-color:#FFFFFF;
+    transition: 0.5s all;
+}
+.swiper-trabajos .swiper-slide {
+    width: 440px;
+    height: 440px;
+    position: relative;
+}

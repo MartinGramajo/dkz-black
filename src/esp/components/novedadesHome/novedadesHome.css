@@ -1,0 +1,28 @@
+.fondo-novedades-home{
+    filter: grayscale(100%);
+    transition: 0.5s all;
+    width: 420px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+.fondo-novedades-home:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: 0.5s all;
+}
+
+.fondo-novedades-home:hover .novedades-home-texto{
+    opacity:0;    
+    transition: 0.5s all;
+}
+.novedades-home-texto{
+    background-color: hsla(0, 0%, 4%, 0.5);
+    transition: 0.5s all;
+    Line-height: 30px;
+
+}

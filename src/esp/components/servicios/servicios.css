@@ -1,0 +1,35 @@
+
+
+.boton-servicios{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background-color: #0f0f0f !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 1rem!important;
+    transition: 0.5s all;
+
+}
+
+.boton-servicios:hover{
+    background-color: #FF6700 !important;    
+    transition: 0.5s all;
+}
+
+.boton-servicios h4{
+    text-align: left;
+    width: 350px;
+    padding-left: 1.4rem;
+    display: flex;
+    color: #ffffff;
+    font-family: "Poppins-Bold"
+}
+
+.boton-servicios h3{
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-right: 0.5rem;
+    color: #ffffff;
+    font-family: "Poppins-Bold"
+}

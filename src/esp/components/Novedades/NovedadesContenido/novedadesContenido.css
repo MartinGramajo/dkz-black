@@ -1,0 +1,19 @@
+.fondo-novedades{
+    filter: grayscale(100%);
+    transition: 0.5s all;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+}
+.tamaño-card-novedades{
+    width:600px;
+    /* width: 50%; */
+}
+
+.fondo-novedades:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: 0.5s all;
+}
